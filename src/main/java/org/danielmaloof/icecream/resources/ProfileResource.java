@@ -60,10 +60,10 @@ public class ProfileResource {
 	
 	
 	/*
-	 *	POST Request
-	 *	Adds a New Profile to the Database. 
-	 *  @Context UriInfo to get the API URI for the newly created Profile this will 
-	 *  		 automatically be included in the Response Header
+	 *  POST Request
+	 *  Adds a New Profile to the Database. 
+	 *  @Context UriInfo is used to get the API URI for the newly created Profile .
+	 *  The API URI will automatically be included in the Response Header.
 	 *  Returns the newly created Profile, and the Response Status Code '201 Created'
 	 */
 	@POST
