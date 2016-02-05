@@ -1,0 +1,31 @@
+body {
+	background: #E3F2FD;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	font-family: Roboto, "Noto Sans", sans-serif;
+}
+
+.wrapper {
+	width: 450px;
+	margin: 0 auto;
+}
+
+.box {
+	border: 2px solid #000;
+	background: #FFF;
+	padding: 1em;
+	margin: 1em 0;
+	box-shadow: 1px 2px 5px #333;
+}
+
+.box a {
+	color: #F44336;
+	text-decoration: none;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+h2 {
+	text-align: center;
+}
