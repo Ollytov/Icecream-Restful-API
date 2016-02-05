@@ -4,6 +4,12 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement
 public class ErrorMessage {
+	
+	/*
+	 *  A model used to create Error Message Responses for when an exception is caught and thrown.
+	 *  Contains variables, constructors, and getters/setters for the ErrorMessage class.
+	 */
+	
 	private String errorMessage;
 	private int errorCode;
 	private String documentation;
